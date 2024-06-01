@@ -8,7 +8,7 @@ local AlchemyNotify = function(Text_i,Duration_i)
         Title = "Alchemy Hub V2",
         Text = Text_i,
         Duration = Duration_i,
-        Icon = "rbxassetid://14981376704"
+        Icon = "rbxassetid://17695092612"
     })
 end
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ZoiIntra/AlchemyHub/main/InviteToDiscord.lua"))()
