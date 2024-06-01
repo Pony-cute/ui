@@ -1,5 +1,5 @@
 repeat wait(1) until game:IsLoaded()
-local LuxuryHub_Version = "2.4 [ paid ]"
+local LuxuryHub_Version = "2 [ paid ]"
 local LuxuryHub_UserCalling = game.Players.LocalPlayer.Name
 local textchange_cooldown = 3
 local Alchemy_GameName = "Blox Fruits"
