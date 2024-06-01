@@ -428,7 +428,7 @@ wait(1)
 local SlayerzLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Pony-cute/Luxury/main/Library.script"))()
 
 local Name = "Luxury Hub | Blox Fruits"
-local Description = " [ Premium ] | User : "..game.Players.LocalPlayer.Name.." Toggle : Del"
+local Description = " [ Premium ] | User : "..game.Players.LocalPlayer.Name.."
 local Image = "rbxassetid://17695214198"
 local Color = Color3.fromRGB(0, 255, 145)
 
