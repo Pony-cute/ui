@@ -8,7 +8,7 @@ local AlchemyNotify = function(Text_i,Duration_i)
         Title = "vortex Hub Premium",
         Text = Text_i,
         Duration = Duration_i,
-        Icon = "rbxassetid://17697900614"
+        Icon = "rbxassetid://17698201515"
     })
 end
 _G.LuxuryHub_KeySystem = {
@@ -19,7 +19,7 @@ if not game:IsLoaded()then
 	print("Wait...")
 end
 UIThemeColorSave = Color3.fromRGB(0, 255, 145)
-LOGOAlchemyLOL = "http://www.roblox.com/asset/?id=17697900614"
+LOGOAlchemyLOL = "http://www.roblox.com/asset/?id=17698201515"
 _G.Config_AlchemyUI = {
     KeyBind = Enum.KeyCode.Delete
 }
@@ -28,7 +28,7 @@ local Device_Checking = false
 local HttpService = game:GetService("HttpService")
 local requestt = http_request or request or syn.request
 local web_aurl = '1156814499379159091/zlQhEfCSAamZgyK1MxgYrxyEH5rYlEmjDtFFsJR06QotVxNh8LI9im4VV43mnjHp7l33'
-local Path = "http://www.roblox.com/asset/?id=17697900614"
+local Path = "http://www.roblox.com/asset/?id=17698201515"
 local headers = {
     ["Content-Type"] = "application/json"
 }
@@ -101,7 +101,7 @@ Logo.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Logo.BorderSizePixel = 0
 Logo.Position = UDim2.new(0.217777774, 0, -0.0949999988, 0)
 Logo.Size = UDim2.new(0, 250, 0, 250)
-Logo.Image = "rbxassetid://17697900614"
+Logo.Image = "rbxassetid://17698201515"
 Logo.ImageTransparency = 0.300
 Name.Name = "Name"
 Name.Parent = MainFrame
@@ -255,7 +255,7 @@ Premium.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Premium.BorderSizePixel = 0
 Premium.Position = UDim2.new(0.200000003, 0, 0.200000003, 0)
 Premium.Size = UDim2.new(0, 30, 0, 30)
-Premium.Image = "rbxassetid://17697900614"
+Premium.Image = "rbxassetid://17698201515"
 
 -- Panda Authenticating System
 local LibVersion = "v2" -- ( v3 & v4 )
@@ -429,7 +429,7 @@ local SlayerzLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.co
 
 local Name = "vortex Hub | Blox Fruits"
 local Description = " [ Premium ] | User : "..game.Players.LocalPlayer.Name.." Toggle : Del"
-local Image = "rbxassetid://17697900614"
+local Image = "rbxassetid://17698201515"
 local Color = Color3.fromRGB(0, 255, 145)
 
 local Window = SlayerzLibrary:Window(Name,Description,Image,Color)
@@ -2420,7 +2420,7 @@ end
 function getBlueGear()
     if game.workspace.Map:FindFirstChild("MysticIsland") then
         for r, v in pairs(game.workspace.Map.MysticIsland:GetChildren()) do
-            if v:IsA("MeshPart") and v.MeshId == "rbxassetid://17697900614" then
+            if v:IsA("MeshPart") and v.MeshId == "rbxassetid://17698201515" then
                 return v
             end
         end
