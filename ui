@@ -112,7 +112,7 @@ Name.ClipsDescendants = true
 Name.Position = UDim2.new(0, 0, 0.0700000003, 0)
 Name.Size = UDim2.new(0, 448, 0, 39)
 Name.Font = Enum.Font.GothamBold
-Name.Text = "Alchemy Hub"
+Name.Text = "Luxury Hub"
 Name.TextColor3 = Color3.fromRGB(255, 255, 255)
 Name.TextSize = 33.000
 Description.Name = "Description"
@@ -275,7 +275,7 @@ end
 spawn(function()
 	pcall(function()
 		while wait(1) do
-            Name.Text = "Alchemy Hub"
+            Name.Text = "Luxury Hub"
             Description.Text = "Free Script Hub Support PC/Mobile with Many Function Smooth High Perfomance And Anit Detection !"
             Credit.Text = " UI By x2Neptune"
             Logo.Image = LOGOAlchemyLOL
@@ -318,8 +318,8 @@ if getgenv().Continue == true then
     Button1.MouseButton1Click:Connect(function()
         Button1.Text = "Copy Success"
         LibraryNotify:Notification({ Text = "If the copy fails, look in the Console.", Duration = 3 })
-        LibraryNotify:Notification({ Text = "Copy : https://discord.gg/dUdzZskBCC", Duration = 3 })
-        setclipboard("https://discord.gg/dUdzZskBCC")
+        LibraryNotify:Notification({ Text = "Copy : https://discord.com/invite/cx2Fpsr3ry", Duration = 3 })
+        setclipboard("https://discord.com/invite/cx2Fpsr3ry")
         wait(0.5)
         Button1.Text = "Discord"
     end)
@@ -417,18 +417,18 @@ local Highlight = function(Target)
 end
 Highlight(Plr)
 wait(0.1)
-AlchemyNotify("Thanks for using Alchemy Hub!",5)
+AlchemyNotify("Thanks for using Luxury Hub!",5)
 wait(0.1)
-AlchemyNotify("discord.gg/dUdzZskBCC",5)
+AlchemyNotify("https://discord.com/invite/cx2Fpsr3ry",5)
 wait(0.5)
 local Notification = require(game:GetService("ReplicatedStorage").Notification)
-Notification.new("<Color=Cyan>Alchemy Hub V2.0 Script<Color=/>"):Display()
+Notification.new("<Color=Cyan>Luxury Hub V2.0 Script<Color=/>"):Display()
 wait(0.5)
 Notification.new("<Color=Yellow>Create By x2Neptune<Color=/>"):Display()
 wait(1)
 local SlayerzLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/x2-Neptune/SlayerzUI/main/Library.script"))()
 
-local Name = "Alchemy Hub | Blox Fruits"
+local Name = "Luxury Hub | Blox Fruits"
 local Description = "Version : 2.4 [ Free ] | User : "..game.Players.LocalPlayer.Name.." Toggle : Del"
 local Image = "rbxassetid://17695214198"
 local Color = Color3.fromRGB(0, 255, 145)
