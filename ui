@@ -418,17 +418,17 @@ Highlight(Plr)
 wait(0.1)
 AlchemyNotify("Thanks for using Luxury Hub!",5)
 wait(0.1)
-AlchemyNotify("discord.gg/dUdzZskBCC",5)
+AlchemyNotify("https://discord.gg/fpZAcZwhVZ",5)
 wait(0.5)
 local Notification = require(game:GetService("ReplicatedStorage").Notification)
-Notification.new("<Color=Cyan>Luxury Hub Premium<Color=/>"):Display()
+Notification.new("<Color=Yellow>Luxury Hub Premium<Color=/>"):Display()
 wait(0.5)
-Notification.new("<Color=Yellow>Create By Pony<Color=/>"):Display()
+Notification.new("<Color=Cyan>Create By Pony<Color=/>"):Display()
 wait(1)
 local SlayerzLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/x2-Neptune/SlayerzUI/main/Library.script"))()
 
 local Name = "Luxury Hub | Blox Fruits"
-local Description = "Version : 2.4 [ Free ] | User : "..game.Players.LocalPlayer.Name.." Toggle : Del"
+local Description = " [ Premium ] | User : "..game.Players.LocalPlayer.Name.." Toggle : Del"
 local Image = "rbxassetid://17695214198"
 local Color = Color3.fromRGB(0, 255, 145)
 
