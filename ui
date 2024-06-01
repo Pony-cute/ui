@@ -11,7 +11,7 @@ local AlchemyNotify = function(Text_i,Duration_i)
         Icon = "rbxassetid://17695214198"
     })
 end
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ZoiIntra/AlchemyHub/main/InviteToDiscord.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Pony-cute/Luxury/main/InviteToDiscord.lua"))()
 _G.LuxuryHub_KeySystem = {
 	KeySaved = "IDK"
 }
