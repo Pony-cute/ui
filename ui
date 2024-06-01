@@ -11,7 +11,6 @@ local AlchemyNotify = function(Text_i,Duration_i)
         Icon = "rbxassetid://17695214198"
     })
 end
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Pony-cute/Luxury/main/InviteToDiscord.lua"))()
 _G.LuxuryHub_KeySystem = {
 	KeySaved = "IDK"
 }
@@ -29,7 +28,7 @@ local Device_Checking = false
 local HttpService = game:GetService("HttpService")
 local requestt = http_request or request or syn.request
 local web_aurl = '1156814499379159091/zlQhEfCSAamZgyK1MxgYrxyEH5rYlEmjDtFFsJR06QotVxNh8LI9im4VV43mnjHp7l33'
-local Path = "http://www.roblox.com/asset/?id="
+local Path = "http://www.roblox.com/asset/?id=17695214198"
 local headers = {
     ["Content-Type"] = "application/json"
 }
@@ -277,7 +276,7 @@ spawn(function()
 		while wait(1) do
             Name.Text = "Luxury Hub"
             Description.Text = "Free Script Hub Support PC/Mobile with Many Function Smooth High Perfomance And Anit Detection !"
-            Credit.Text = " UI By x2Neptune"
+            Credit.Text = " UI By Pony-cute"
             Logo.Image = LOGOAlchemyLOL
 		end
 	end)
