@@ -1,5 +1,5 @@
 repeat wait(1) until game:IsLoaded()
-local LuxuryHub_Version = "2 [ paid ]"
+local LuxuryHub_Version = "2 [ Premium ]"
 local LuxuryHub_UserCalling = game.Players.LocalPlayer.Name
 local textchange_cooldown = 3
 local Alchemy_GameName = "Blox Fruits"
@@ -421,9 +421,9 @@ wait(0.1)
 AlchemyNotify("discord.gg/dUdzZskBCC",5)
 wait(0.5)
 local Notification = require(game:GetService("ReplicatedStorage").Notification)
-Notification.new("<Color=Cyan>Luxury Hub V2.0 Script<Color=/>"):Display()
+Notification.new("<Color=Cyan>Luxury Hub Premium  Script<Color=/>"):Display()
 wait(0.5)
-Notification.new("<Color=Yellow>Create By x2Neptune<Color=/>"):Display()
+Notification.new("<Color=Yellow>Create By Pony-<Color=/>"):Display()
 wait(1)
 local SlayerzLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/x2-Neptune/SlayerzUI/main/Library.script"))()
 
