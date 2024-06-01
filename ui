@@ -309,9 +309,9 @@ loadSettings()
 getgenv().Continue = true
 getgenv().ChargeTime = 3
 local GETKeyLink_Gen = PandaAuth:GetKey(service_name)
-local LibraryNotify = loadstring(game:HttpGet("https://raw.githubusercontent.com/ZoiIntra/luable/main/notify.lua"))()
+local LibraryNotify = loadstring(game:HttpGet("https://raw.githubusercontent.com/Pony-cute/Luxury/main/notify.lua"))()
 if getgenv().Continue == true then
-    local LibraryNotify = loadstring(game:HttpGet("https://raw.githubusercontent.com/ZoiIntra/luable/main/notify.lua"))()
+    local LibraryNotify = loadstring(game:HttpGet("https://raw.githubusercontent.com/Pony-cute/Luxury/main/notify.lua"))()
     LibraryNotify:Notification({ Text = "Load Saved Key", Duration = 3 })
     wait()
     Button1.MouseButton1Click:Connect(function()
