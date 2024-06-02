@@ -317,8 +317,8 @@ if getgenv().Continue == true then
     Button1.MouseButton1Click:Connect(function()
         Button1.Text = "Copy Success"
         LibraryNotify:Notification({ Text = "If the copy fails, look in the Console.", Duration = 3 })
-        LibraryNotify:Notification({ Text = "Copy : https://discord.com/invite/cx2Fpsr3ry", Duration = 3 })
-        setclipboard("https://discord.com/invite/cx2Fpsr3ry")
+        LibraryNotify:Notification({ Text = "Copy : https://discord.gg/DzUJE2rjTP", Duration = 3 })
+        setclipboard("https://discord.gg/DzUJE2rjTP")
         wait(0.5)
         Button1.Text = "Discord"
     end)
@@ -418,7 +418,7 @@ Highlight(Plr)
 wait(0.1)
 AlchemyNotify("Thanks for using vortex Hub!",5)
 wait(0.1)
-AlchemyNotify("https://discord.gg/fpZAcZwhVZ",5)
+AlchemyNotify("discord.gg/DzUJE2rjTP",5)
 wait(0.5)
 local Notification = require(game:GetService("ReplicatedStorage").Notification)
 Notification.new("<Color=Yellow>vortex Hub Premium<Color=/>"):Display()
@@ -428,7 +428,7 @@ wait(1)
 local SlayerzLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Pony-cute/Luxury/main/Library.script"))()
 
 local Name = "vortex Hub | Blox Fruits"
-local Description = " [ Premium ] | User : "..game.Players.LocalPlayer.Name.." Toggle : Del"
+local Description = " [ Premium ] | User : "..game.Players.LocalPlayer.Name.."discord.gg/DzUJE2rjTP"
 local Image = "rbxassetid://17698201484"
 local Color = Color3.fromRGB(0, 255, 145)
 
